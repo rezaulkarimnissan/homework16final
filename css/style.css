@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*==============================
+Header part start
+===============================*/
+
+#header .menu .menu-top {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    padding: 20px 0;
+
+}
+
+#header .menu .menu-top .left {
+    width: 50%;
+    height: 50px;
+}
+
+#header .menu .menu-top .left .logo img {
+    width: 50%;
+    height: 50px;
+    margin-left: 120px;
+}
+
+#header .menu .menu-top .right {
+    width: 50%;
+    height: 50px;
+    text-align: right;
+    margin-top: 10px;
+    display: flex;
+}
+
+#header .menu .menu-top .right a {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    padding: 08px 20px;
+    border: 2px solid #353535;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: #615b9b;
+    text-transform: uppercase;
+    margin-right: 5px;
+
+}
+
+#header .menu .menu-top .right .search-part {
+    position: relative;
+}
+
+#header .menu .menu-top .right .search-part input {
+    width: 100px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #353535;
+    border-radius: 3px;
+    color: #615b9b;
+    padding: 8px 5px;
+    text-align: right;
+    margin-top: 10px;
+
+}
+
+#header .menu .menu-top .right .search-part i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 8px 10px;
+    margin-top: 5px;
+}
+
+#header-below .menu-below {
+    width: 100%;
+    display: flex;
+    background: #1b1740;
+}
+
+#header-below .menu-below .left {
+    width: 25%;
+}
+
+#header-below .menu-below .left ul li {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    padding: 30px 0 40px 120px;
+}
+
+#header-below .menu-below .left ul li a {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #1b1740;
+    border-radius: 2px;
+    transition: .3s;
+    padding: 8px 10px;
+}
+
+#header-below .menu-below .left ul li a:hover {
+    background: #3fb455;
+    border-color: #3fb455;
+}
+
+#header-below .menu-below .middle {
+    width: 50%;
+    text-align: center;
+}
+
+#header-below .menu-below .middle ul li {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px 10px 10px 0;
+    position: relative;
+}
+
+#header-below .menu-below .middle ul li::after {
+    position: absolute;
+    top: 55%;
+    right: 0;
+    width: 2px;
+    height: 12px;
+    transform: translateX(-50%) rotate(30deg);
+    content: "";
+    background: #fff;
+
+}
+
+#header-below .menu-below .middle ul li:last-child::after {
+    background: transparent;
+}
+
+
+#header-below .menu-below .middle ul li a {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #1b1740;
+    border-radius: 2px;
+    transition: .3s;
+    padding: 8px 10px;
+}
+
+#header-below .menu-below .middle ul li a:hover {
+    background: #3fb455;
+    border-color: #3fb455;
+}
+
+#header-below .menu-below .right {
+    width: 25%;
+}
+
+#header-below .menu-below .right ul li {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px 10px 10px 0;
+}
+
+#header-below .menu-below .right ul li a {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #1b1740;
+    border-radius: 2px;
+    transition: .3s;
+    padding: 8px 10px;
+}
+
+#header-below .menu-below .right ul li a:hover {
+    background: #3fb455;
+    border-color: #3fb455;
+}
+
+/*==============================
+Header part end
+================================*/
+
+
+
+/*==============================
+Connection part start
+================================*/
+#connection .title-part {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: linear-gradient(to right, #50499b, #4e3b8a, #21185f)
+}
+
+#connection .title-part h2 {
+    padding: 30px 0;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#connection .title-part h2 span {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#connection .title-part .one {
+    padding: 5px 0 5px 5px;
+}
+
+#connection .title-part .two {
+    padding: 6px 0 6px 5px;
+    width: 170px;
+}
+
+#connection .title-part .three {
+    padding: 6px 0 6px 5px;
+    width: 170px;
+}
+
+#connection .title-part a {
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #2a1f67;
+    border-radius: 2px;
+    transition: .3s;
+    padding: 5px 10px;
+}
+
+#connection .title-part a:hover {
+    border: 2px solid #584fa4;
+    background: #3fb455;
+}
+
+/*==============================
+Connection part end
+================================*/
+
+
+
+
+/*==============================
+Details part start
+================================*/
+#details .image img {
+    width: 100%;
+}
+
+#details .text-part {
+    width: 100%;
+    background: #73ba9d;
+    text-align: center;
+
+}
+
+#details .text-part h3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 50px 0 10px 0;
+}
+
+#details .text-part p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 70px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+#details .text-part a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #73ba9d;
+    border-radius: 2px;
+    transition: .3s;
+    padding: 8px 5px;
+    margin-bottom: 30px;
+}
+
+#details .text-part a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    background: #584fa4;
+}
+
+#details .text-part2 {
+    width: 100%;
+    background: #6baac1;
+    text-align: center;
+
+}
+
+#details .text-part2 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 50px 0 10px 0;
+}
+
+#details .text-part2 p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 70px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+#details .text-part2 a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #6baac1;
+    border-radius: 2px;
+    transition: .3s;
+    padding: 8px 5px;
+    margin-bottom: 30px;
+}
+
+#details .text-part2 a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    background: #ffffff;
+    color: #615b9b;
+}
+
+#details .text-part3 {
+    width: 100%;
+    background: #6b83c1;
+    text-align: center;
+
+}
+
+#details .text-part3 h3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 50px 0 10px 0;
+}
+
+#details .text-part3 p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 70px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+#details .text-part3 a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #6b83c1;
+    border-radius: 2px;
+    transition: .3s;
+    padding: 8px 5px;
+    margin-bottom: 30px;
+}
+
+#details .text-part3 a:hover {
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+}
+
+
+/*==============================
+Details part end
+================================*/
+
+
+/*==============================
+Roles part start
+================================*/
+
+#roles .title-part {
+    text-align: center;
+    margin: 40px 0 60px 0;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1740;
+    text-transform: uppercase;
+}
+
+#roles .text h5 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1740;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#roles .text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #615b9b;
+    margin-bottom: 30px;
+}
+
+#roles .text h6 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1740;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+#roles .text p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1740;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+#roles .text a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1740;
+    text-transform: uppercase;
+    padding: 0 5px 0 5px;
+    margin-bottom: 60px;
+    transition: .3s;
+}
+
+#roles .text a:hover {
+    color: #615b9b;
+}
+
+
+
+/*==============================
+Roles part end
+================================*/
+
+
+
+/*==============================
+Connect part start
+================================*/
+
+#connect .image img {
+    width: 100%;
+
+}
+
+#connect .image {
+    position: relative;
+}
+
+#connect .image .overlay {
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    top: 10%;
+    right: 0;
+    background: #615b9b;
+    opacity: 1;
+    padding-left: 40px;
+}
+
+#connect .image .overlay h3 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 40px 0 50px 0;
+}
+
+#connect .image .overlay p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+/*==============================
+Connect part end
+================================*/
+
+/*==============================
+Reffer part start
+================================*/
+#reffer .text {
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+#reffer .text h4 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1740;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+#reffer .text p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #4e5a60;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+#reffer .text a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #4e5a60;
+    text-transform: capitalize;
+    border: 2px solid #fff;
+    transition: .3s;
+    padding: 8px 10px;
+}
+
+#reffer .text a:hover {
+    color: #615b9b;
+    border: 2px solid #615b9b;
+    border-radius: 2px;
+}
+
+#reffer .image {
+    margin-top: 100px;
+}
+
+#reffer .image img {
+    width: 100%;
+}
+
+/*==============================
+Reffer part end
+================================*/
